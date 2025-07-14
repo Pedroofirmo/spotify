@@ -4,257 +4,34 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Spotify</title>
-<link rel="stylesheet" href="styles/index.css" />
-<link rel="shortcut icon" href="img/logo-verde.png" type="image/x-icon">
+<link rel="shortcut icon" href="assets/img/logo-verde.png" type="image/x-icon">
+<link rel="stylesheet" href="assets/styles/index.css">
 </head>
 <body>
-<header>
-    <div class="logo">
-        <img src="img/logo-branca.png" alt="logo spotify" id="id-01" />
-    </div>
-    <div class="home" id="id-02">
-        <img src="img/icon-home.png" alt="home" />
-    </div>
-    <div class="barra-pesquisa" id="id-03">
-        <img src="img/icon-lupa.png" alt="Lupa" class="lupa" />
-        <input type="text" placeholder="O que você quer ouvir?" id="input-pesquisa" />
-        <div class="divisao"></div>
-        <img src="img/icon-pasta.png" alt="pasta" class="pasta" id="icon02" />
-    </div>
-    <div class="links" id="id-04">
-        <a href="#">Premium</a>
-        <a href="#">Suporte</a>
-        <a href="#">Baixar</a>
-    </div>
-    <div class="barra" id="id-05"></div>
-    <div class="login" id="id-06">
-        <a href="#">Inscrever-se</a>
-    </div>
-    <button class="entrar" id="id-07">Entrar</button>
-</header>
-<div class="container">
-    <aside class="biblioteca">
-        <h3>
-            Sua Biblioteca <span>+</span>
-        </h3>
-
-        <div class="box">
-            <p><strong>Crie sua primeira playlist</strong><br />É fácil, vamos te ajudar.</p>
-            <button>Criar playlist</button>
+    <header>
+        <div class="logo">
+            <img src="assets/img/logo-branca.png" alt="Logo da Spotify">
         </div>
-        
-        <div class="box">
-            <p><strong>Que tal seguir um podcast novo?</strong><br />Avisaremos você sobre novos episódios.</p>
-            <button>Explore podcasts</button>
+        <div class="home">
+            <img src="assets/img/svg/icon-home.png" alt="icone de home">
         </div>
-
-        <div class="box">
-            <p><strong>Trabalhar sem música? não mais</strong><br />Dê play na sua playlist.</p>
-            <button>Começar</button>
+        <div class="barra-pesquisa">
+            <img src="assets/img/svg/icon-lupa.png" alt="icone de lupa" class="icon-lupa">
+            <input type="text" placeholder="Oque você quer ouvir?">
+            <div class="divisoria"></div>
+            <img src="assets/img/svg/icon-pasta.png" alt="icone de pasta" class="icon-pasta">
         </div>
-
-        <button class="lang-btn">🌐 Português do Brasil</button>
-    </aside>
-
-    <main class="conteudo-principal">
-        <!-- Seção Músicas em Alta -->
-        <section class="musicas-em-alta">
-            <h2>Músicas em Alta</h2>
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/capa-racionais01.jpg" alt="capa-racionais01" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Homem na estrada</p>
-                        <p class="artista-nome">Racionais Mc's</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/capa-racionais02.jpg" alt="capa-racionais02" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Sou 157</p>
-                        <p class="artista-nome">Racionais Mc's</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/capa-cabare.jpg" alt="capa-cabare" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Lembranças</p>
-                        <p class="artista-nome">Leonardo & Eduardo Costa</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/capa-calcinhapreta.webp" alt="capa-calcinhapreta" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Faço chover</p>
-                        <p class="artista-nome">Calcinha preta</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/capa-desejo01.jpg" alt="capa-desejo01" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Nada e para sempre</p>
-                        <p class="artista-nome">Seu Desejo</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/capa-desejo02.jpg" alt="capa-desejo02" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Nossa música</p>
-                        <p class="artista-nome">Seu Desejo</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="artistas-em-alta">
-            <h2>Artistas em alta</h2>
-            <div class="artistas-container">
-                <div class="artista-card">
-                    <img src="img/artista-mcig.jpg" alt="Mc IG" />
-                    <p>Mc IG</p>
-                </div>
-                <div class="artista-card">
-                    <img src="img/artista-mcnegao.jpeg" alt="Artista 2" />
-                    <p>Mc negão original</p>
-                </div>
-                <div class="artista-card">
-                    <img src="img/artista-mcpoze.jpeg" alt="Artista 3" />
-                    <p>Mc Poze</p>
-                </div>
-                <div class="artista-card">
-                    <img src="img/artista-menosemais.jpeg" alt="Artista 4" />
-                    <p>Menos é mais</p>
-                </div>
-                <div class="artista-card">
-                    <img src="img/artista-reivaqueiro.jpeg" alt="Artista 5" />
-                    <p>Rei Vaqueiro</p>
-                </div>
-                <div class="artista-card">
-                    <img src="img/artista-seudesejo.jpg" alt="Artista 6" />
-                    <p>Seu Desejo</p>
-                </div>
-                <div class="artista-card">
-                    <img src="img/artista-zevaqueiro.jpeg" alt="Artista 7" />
-                    <p>Zé Vaqueiro</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="destaques-spotify">
-            <h2>Eventos Spotify</h2>
-            <div class="cards-grid">
-                <div class="card-02">
-                    <div class="card-img">
-                        <img src="img/destaque-01.png" alt="capa-racionais01" />
-                    </div>
-                </div>
-                <div class="card-02">
-                    <div class="card-img">
-                        <img src="img/destaque-02.png" alt="capa-racionais02" />
-                    </div>
-                </div>
-                <div class="card-02">
-                    <div class="card-img">
-                        <img src="img/destaque-03.png" alt="capa-cabare" />
-                    </div>
-                </div>
-                <div class="card-02">
-                    <div class="card-img">
-                        <img src="img/destaque-05.png" alt="capa-calcinhapreta" />
-                    </div>
-                </div>
-                <div class="card-02">
-                    <div class="card-img">
-                        <img src="img/destaque-06.png" alt="capa-desejo01" />
-                    </div>
-                </div>
-                <div class="card-02">
-                    <div class="card-img">
-                        <img src="img/destaque-03.png" alt="capa-desejo02" />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="recomendacoes">
-            <h2 class="ultimo-texto">Recomendações</h2>
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/remocendação-01.jpeg" alt="capa-racionais01" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Vapor barato</p>
-                        <p class="artista-nome">Rappa</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/remocendação-02.webp" alt="capa-racionais02" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Pra quem tem fé</p>
-                        <p class="artista-nome">Rappa</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/remocendação-03.jpeg" alt="capa-cabare" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Ficar por ficar</p>
-                        <p class="artista-nome">Forró brucelose</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/remocendação-04.webp" alt="capa-calcinhapreta" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Gorila Roxo</p>
-                        <p class="artista-nome">Matuê</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/remocendação-05.jpeg" alt="capa-desejo01" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Isso é serio</p>
-                        <p class="artista-nome">Matuê</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="img/remocendação-06.jpg" alt="capa-desejo02" />
-                    </div>
-                    <div class="card-info">
-                        <p class="musica-nome">Oitavo anjo</p>
-                        <p class="artista-nome">505-E</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-</div>
-<script src="scripts/toggleBiblioteca.js"></script>
-<script src="scripts/scrollHorizontal.js"></script>
+        <div class="links">
+            <a href="#">Premium</a>
+            <a href="#">Suporte</a>
+            <a href="#">Baixar</a>
+            <div class="barra-divisao"></div> 
+            <a href="#">Instalar aplicativo</a>
+            <a href="#">Inscrever-se</a>
+        </div>
+        <div class="button-entrar">
+            <button>Entrar</button>
+        </div>
+    </header>
 </body>
 </html>
