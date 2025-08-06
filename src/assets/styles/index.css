@@ -382,12 +382,20 @@ footer{
     background: linear-gradient(to right, blue, rgb(181, 40, 63));
 }
 
-.h4-footer{
+footer{
+    display: flex;
+    align-items: center;
+}
+
+.h2-footer{
     color: #fff;
+    margin-left: 50px;
 }
 
 .p-footer{
     color: #fff;
+    margin-left: 10px;
+    margin-top: 2px;
 }
 
 .button-footer{
@@ -396,4 +404,5 @@ footer{
     width: 150px;
     height: 40px;
     font-size: 16px;
+    margin-left: 600px;
 }
