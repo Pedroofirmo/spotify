@@ -405,9 +405,15 @@ footer{
     height: 40px;
     font-size: 16px;
     margin-left: 600px;
+    font-family: sans-serif;
 }
 
 @media (max-width: 480px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
     .links,
     .button-entrar {
     display: none;
@@ -491,11 +497,11 @@ footer{
 
     .icon-pasta{
         display: none;
-    }
+}
 
     .destaques-spotify{
         height: 200px;
-    }
+}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
