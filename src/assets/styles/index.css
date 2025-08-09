@@ -406,3 +406,110 @@ footer{
     font-size: 16px;
     margin-left: 600px;
 }
+
+@media (max-width: 480px) {
+    .links,
+    .button-entrar {
+    display: none;
+}
+
+    .logo {
+    margin-left: -10px;
+}
+
+    .barra-pesquisa {
+    width: 100%;
+    max-width: 330px;
+}
+
+    .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+}
+
+    .biblioteca {
+    display: none;
+}
+
+    .conteudo-principal {
+    padding-right: 0;
+    height: auto;
+}
+
+    .card, .card-02, .artista-card {
+    width: 120px;
+    height: 180px;
+}
+
+    .card-img {
+    width: 100px;
+    height: 100px;
+}
+
+    .artista-card img {
+    width: 100px;
+    height: 100px;
+}
+
+    footer {
+    position: static;
+    height: auto;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+    .button-footer {
+    margin-left: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+    .cards-grid::-webkit-scrollbar,
+    .artistas-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+    .cards-grid::-webkit-scrollbar-thumb,
+    .artistas-container::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+    .p-footer, 
+    .texto-footer{
+        display: none;
+}
+
+    footer{
+        margin-top: 20px;
+}
+
+    .button-footer{
+        margin-left: 40px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+    flex-direction: column;
+    height: auto;
+}
+
+    .biblioteca {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+}
+
+    .conteudo-principal {
+    padding: 0 10px;
+}
+
+    .barra-pesquisa {
+    width: 100%;
+    max-width: 450px;
+}
+}
