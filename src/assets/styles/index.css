@@ -460,7 +460,7 @@ footer{
 }
 
     .button-footer {
-    margin-left: 0;
+    margin-left: 45px;
     width: 100%;
     max-width: 300px;
 }
@@ -488,6 +488,14 @@ footer{
     .button-footer{
         margin-left: 40px;
 }
+
+    .icon-pasta{
+        display: none;
+    }
+
+    .destaques-spotify{
+        height: 200px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
