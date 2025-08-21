@@ -509,6 +509,9 @@ footer{
     .destaques-spotify{
         height: 200px;
 }
+    footer{
+        display: none;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -533,4 +536,8 @@ footer{
     width: 100%;
     max-width: 450px;
 }
+
+    footer{
+        display: none;
+    }
 }
