@@ -1,6 +1,6 @@
 # 🎵 Projeto Spotify Clone
 
-Este é um projeto inspirado no Spotify, desenvolvido para fins de estudo e prática de HTML, CSS e JavaScript.  
+Este é um projeto inspirado no Spotify, desenvolvido para fins de estudo e prática de HTML e CSS.  
 O objetivo é recriar a interface e funcionalidades básicas do Spotify Web, com design responsivo e organização em seções.
 
 ---
